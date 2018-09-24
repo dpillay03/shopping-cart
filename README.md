@@ -1,2 +1,11 @@
-# shopping-cart
-A simple shopping cart with React and Redux
+# Shopping Cart
+## Developer: Daniel Pillay
+
+### Description
+A simple shopping cart using React and Redux
+
+#### Technologies
+Node<br>
+Express<br>
+React<br>
+Redux<br>
