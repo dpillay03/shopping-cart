@@ -1,44 +1,50 @@
-{
-    "products": [
-        {
-            "name": "Macbook Pro",
-            "url": "https://banner2.kisspng.com/20180528/xca/kisspng-netbook-macbook-pro-laptop-macbook-air-apple-mac-5b0c6b85de9a90.0183086815275406139118.jpg",
-            "price": 2000
-        },
-        {
-            "name": "HP Envy",
-            "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6240/6240846_sd.jpg;maxHeight=300;maxWidth=450",
-            "price": 1000
-        },
-        {
-            "name": "Acer Chromebook",
-            "url": "https://product-images.www8-hp.com/digmedialib/prodimg/lowres/c05567119.png",
-            "price": 500
-        },
-        {
-            "name": "iPhone X Max",
-            "url": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2018/09/p-1-iphone-xs-and-xmax.jpg",
-            "price": 1000
-        },
-        {
-            "name": "Samsung Note 9",
-            "url": "http://www.pngnames.com/files/3/Samsung-Galaxy-Note-9-PNG.png",
-            "price": 900
-        },
-        {
-            "name": "Nikon D3300",
-            "url": "https://cdn-4.nikon-cdn.com/e/Q5NM96RZZo-YRYNeYvAi9beHK4x3L-8iSKFuXbTDiVzOj5_9D03cEdJ1gEjX7rK74bi3TemBsjwqkN1duzuOiA==/Views/1529_D3300_left.png",
-            "price": 455
-        },
-        {
-            "name": "Cannon EOS REbel T4i",
-            "url": "http://www.pngmart.com/files/2/Digital-SLR-Camera-PNG-HD.png",
-            "price": 700
-        },
-        {
-            "name": "Sony Alpha a7S",
-            "url": "https://www.dpreview.com/files/p/E~products/sony_a7s/shots/977781aa771d42bb9db348c176542e02.png",
-            "price": 1200
-        }
-    ]
-}
+[
+    {
+        "id": 1,
+        "name": "Macbook Pro",
+        "url": "https://banner2.kisspng.com/20180528/xca/kisspng-netbook-macbook-pro-laptop-macbook-air-apple-mac-5b0c6b85de9a90.0183086815275406139118.jpg",
+        "price": 2000
+    },
+    {
+        "id": 2,
+        "name": "HP Envy",
+        "url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6240/6240846_sd.jpg;maxHeight=300;maxWidth=450",
+        "price": 1000
+    },
+    {
+        "id": 3,
+        "name": "Acer Chromebook",
+        "url": "https://product-images.www8-hp.com/digmedialib/prodimg/lowres/c05567119.png",
+        "price": 500
+    },
+    {
+        "id": 4,
+        "name": "iPhone X Max",
+        "url": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2018/09/p-1-iphone-xs-and-xmax.jpg",
+        "price": 1000
+    },
+    {
+        "id": 5,
+        "name": "Samsung Note 9",
+        "url": "http://www.pngnames.com/files/3/Samsung-Galaxy-Note-9-PNG.png",
+        "price": 900
+    },
+    {
+        "id": 6,
+        "name": "Nikon D3300",
+        "url": "https://cdn-4.nikon-cdn.com/e/Q5NM96RZZo-YRYNeYvAi9beHK4x3L-8iSKFuXbTDiVzOj5_9D03cEdJ1gEjX7rK74bi3TemBsjwqkN1duzuOiA==/Views/1529_D3300_left.png",
+        "price": 455
+    },
+    {
+        "id": 7,
+        "name": "Cannon EOS REbel T4i",
+        "url": "http://www.pngmart.com/files/2/Digital-SLR-Camera-PNG-HD.png",
+        "price": 700
+    },
+    {
+        "id": 8,
+        "name": "Sony Alpha a7S",
+        "url": "https://www.dpreview.com/files/p/E~products/sony_a7s/shots/977781aa771d42bb9db348c176542e02.png",
+        "price": 700
+    }
+]
