@@ -1,20 +1,15 @@
 import React from 'react';
-import products from '../../data/products.json';
+import './homepage.css'
+import Products from '../products/products.jsx'
 
 export default class Homepage extends React.Component {
+    constructor(props){
+        super(props);
+    }
     render(){
         return <React.Fragment>
-            <ul>
-                {
-                    products.map(function(items){
-                        return<div>
-                                <p>{items.name}</p>
-                                <img src={items.url} alt="imageurl"></img>
-                                <p>{items.price}</p>
-                            </div>
-                    })
-                }
-            </ul>
+            <h1>Welcome, Pick your Product</h1>
+            <Products />
         </React.Fragment>
     }
 }

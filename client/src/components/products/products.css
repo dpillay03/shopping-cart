@@ -1,0 +1,14 @@
+li{
+    width: 33%;
+    display: inline-block;
+    list-style-type: none;
+}
+.item-container {
+    padding: 2em;
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+}
+.product-img {
+    height: 10em;
+}
