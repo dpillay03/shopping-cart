@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Homepage from '../components/homepage/homepage.jsx'
 
 export default class App extends Component {
   state = {
@@ -22,7 +23,7 @@ export default class App extends Component {
 
   render() {
     return <React.Fragment>
-      <p className="App-intro">{this.state.data}</p>
+      <Homepage />
     </React.Fragment>
   }
 }
