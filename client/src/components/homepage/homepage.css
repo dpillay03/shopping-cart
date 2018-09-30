@@ -2,3 +2,20 @@ h1{
     text-align: center;
     margin: 0 auto;
 }
+.home-header {
+    margin: 0 auto;
+    text-align: center;
+}
+#cart-link {
+    padding-top: 1em;
+}
+#cart-link a{
+    color: firebrick;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 2px solid red;
+    border-style: outset;
+    padding: 10px;
+
+}

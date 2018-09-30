@@ -5,7 +5,7 @@ li{
 }
 .item-container {
     padding: 2em;
-    border: 1px solid black;
+    border: 1px solid rgba(170, 170, 170, 0.735);
     text-align: center;
     margin: 15px;
 }
