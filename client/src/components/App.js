@@ -1,7 +1,13 @@
-import React, { Component } from 'react';
-import Homepage from '../components/homepage/homepage.jsx'
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom';
 
-export default class App extends Component {
+import Homepage from '../components/homepage/homepage.jsx';
+import Cart from '../components/cart/cart.jsx';
+
+export default class App extends React.Component {
   state = {
     data: null
   };
@@ -11,19 +17,24 @@ export default class App extends Component {
       .then(res => this.setState({ data: res.express }))
       .catch(err => console.log(err));
   }
-    callBackendAPI = async () => {
+  callBackendAPI = async () => {
     const response = await fetch('/express_backend');
     const body = await response.json();
 
     if (response.status !== 200) {
-      throw Error(body.message) 
+      throw Error(body.message)
     }
     return body;
   };
 
   render() {
     return <React.Fragment>
-      <Homepage />
+      <Router>
+        <div id="route-container">
+          <Route exact path="/" component={Homepage} />
+          <Route exact path="/cart" component={Cart} />
+        </div>
+      </Router>
     </React.Fragment>
   }
 }
