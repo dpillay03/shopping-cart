@@ -12,11 +12,10 @@ export default class Products extends React.Component {
                 {
                     products.map(function (items) {
                         let handleClick = () => {
-                            console.log('clicked', items.id);
+                            console.log(`clicked: ${items.id}, ${items.price}`);
                         };
                         return <li>
                             <div onClick={handleClick} className="item-container">
-                                <p className="product-id">{items.id}</p>
                                 <p className="product-name">{items.name}</p>
                                 <img className="product-img" src={items.url} alt="imageurl"></img>
                                 <p className="product-price">{items.price}</p>
