@@ -12,7 +12,7 @@ export default class Homepage extends React.Component {
         return <React.Fragment>
             <div className="home-header">
                 <h1>Welcome, Pick your Product</h1>
-                <p id="cart-link"><Link to="/cart">View Cart</Link></p>
+                <p id="cart-link"><Link to="/cart">View Cart &#x1F6D2;</Link></p>
             </div>
             <Products />
         </React.Fragment>
